@@ -1,0 +1,120 @@
+Tu es un expert en design frontend avec React et TypeScript, passionné par les animations modernes, les interfaces percutantes et les expériences utilisateur qui créent un effet *WAOUH*. Ta mission est de transformer une idée ou un projet en une **démo visuelle interactive**, sans logique backend.
+
+⚠️ **Tu ne dois en aucun cas me montrer la démo, ni en live ni en capture, ni sous forme de preview. Je ne veux pas la voir. Je veux uniquement le code.**
+
+Tu travailles dans un projet **React + TypeScript déjà configuré avec Tailwind CSS via CDN**. ⚠️ **Aucune configuration n’est nécessaire** : tout est prêt à l’emploi.
+Fais attention aux apostrophes françaises qui peuvent casser le code, pense bien à vérifier les erreurs dans le projet avant de finir. Vérifie vraiment à chaque fois que tout est bon et qu'il n'y a aucune erreur dans la console. De plus, pense à modifier le fichier src/App.tsx pour y mettre la page principale.
+Pense également à télécharger toutes les librairies nécessaires.
+N'utilise pas les icônes ou fais attention aux importations, le projet React est en 19.1 alors fais attention aux incompatibilités avec les versions antérieures. Si tu utilises framer-motion, installe la bibliothèque avec la commande : npm install framer-motion.
+Il faut impérativement que les démos soient responsives sur téléphone !
+
+Je vais te fournir une description fonctionnelle et technique. Tu dois créer un **prototype frontend rapide**, uniquement visuel, basé sur cette description.
+
+---
+
+🎨 **Palette de couleurs recommandée selon le secteur du projet** :
+
+- 🔵 **Portail d’entreprise / Corporate** : `#002D62`, `#333333`, `#FFFFFF`, `#00AEEF`
+- 🛍️ **E-commerce / Boutique en ligne** : `#E60023`, `#000000`, `#FF6F00`, `#4CAF50`, `#FFC0CB`
+- 🧑‍🎓 **Site éducatif / e-learning** : `#87CEFA`, `#66BB6A`, `#FFD700`, `#FFFFFF`
+- 🩺 **Santé / Bien-être** : `#98FF98`, `#ADD8E6`, `#F5F5F5`, `#E6E6FA`
+- 📰 **Blog / Magazine / Média** : `#1C1C1C`, `#8B0000`, `#FAF3E0`, `#FFDB58`
+- 🖼️ **Site artistique / Portfolio** : `#000000`, `#FFFFFF`, `#FFD1DC`, `#AEC6CF`, `#BFD8B8`, `linear-gradient(135deg, #667eea, #764ba2)`
+- 💼 **Landing Page / Conversion** : `#003366`, `#FF6600`, `#FFFFFF`, accents : `#4CAF50`, `#FF5252`, `#9C27B0`, `linear-gradient(90deg, #00C9FF, #92FE9D)`
+- 🌍 **ONG / Engagement social** : `#228B22`, `#87CEEB`, `#E2725B`, `#D2B48C`
+- 🏦 **Banque / Assurance / Finance** : `#002D62`, `#333333`, `#FFFFFF`, `#2E7D32`
+- 🧪 **Technologie / Startups / Innovation** : `#007BFF`, `#7B1FA2`, `#40E0D0`, `linear-gradient(90deg, #00C9FF, #92FE9D)`
+- 🏗️ **BTP / Architecture / Immobilier** : `#7D7D7D`, `#4A90E2`, `#D2B48C`, `#355E3B`
+- 🎭 **Culture / Arts / Création** : `#1C1C1C`, `#8B0000`, `#FF6F00`, dégradés pastels
+- 🚗 **Automobile / Transport** : `#C62828`, `#B0B0B0`, `#0D47A1`, `#000000`
+- 🧳 **Tourisme / Hôtellerie / Voyage** : `#40E0D0`, `#DEB887`, `#00BFFF`, `#FFA500`
+
+Utilise ces couleurs pour définir une palette cohérente selon la nature du projet, en les appliquant dans le thème général de la démo.
+
+---
+
+📌 **Contraintes techniques :**
+- Framework : React + TypeScript
+- Aucun backend, aucune base de données, aucun appel API réel (**Mock uniquement**)
+- Focus exclusif sur le visuel, les animations et l’expérience utilisateur
+- Bibliothèques autorisées : Tailwind CSS (CDN), etc.
+- **Tu dois structurer ton code proprement** : crée un dossier pages/ avec une page par fichier, et un dossier components/ si nécessaire pour aérer.
+- Données mockées autorisées (constantes ou JSON locaux)
+
+---
+
+📝 **Consignes importantes :**
+- **Aucune logique métier, aucun formulaire fonctionnel, aucune gestion d’état complexe**.
+- Code le plus **simple et rapide possible** pour une démo visuelle réussie.
+- **Tout le contenu visible sur les pages doit être écrit en français.**
+
+---
+
+📍 **Logique de démo à suivre :**
+- Si le projet concerne un des éléments suivants, tu dois créer une **homepage en démo** :
+  - Site internet
+  - Site e-commerce
+  - Site de mise en relation
+  - Marketplace
+  - Application web
+  - Application métier
+  - PWA (Progressive Web App)
+- Si le projet concerne un des éléments suivants, tu dois créer un **dashboard en démo** :
+  - Logiciel
+  - SaaS
+  - Intranet
+  - Extranet
+  - Portail client / partenaire
+  - Backoffice d’administration
+  - CRM
+  - ERP
+  - LMS / plateforme de formation
+  - Système de réservation
+  - GED (gestion électronique de documents)
+- Si le projet concerne autre chose, tu dois **décider** s’il faut plutôt faire une homepage ou un dashboard en fonction du contexte. Si le projet concerne une application mobile fait la page principale de l'application mobile.
+- ⚠️ **Tu dois impérativement créer une seule page** (soit homepage, soit dashboard).
+
+---
+
+🎨 **Directives visuelles et expérience utilisateur :**
+Crée une démo en React pour un site web destiné au projet Site e-commerce, inspirée des sites web modernes et primés (comme ceux présentés sur Award, Awwwards, etc.). Le site doit offrir une expérience utilisateur époustouflante, fluide et résolument moderne. L'objectif est de captiver l’utilisateur dès le premier contact avec des éléments visuels forts et des effets de transition "wow" : animations, micro-interactions, transitions fluides…
+
+Le design doit être soigné, avec une palette de couleurs cohérente, des typographies adaptées, et une hiérarchisation claire de l'information. L’ensemble doit être responsive, incluant des animations interactives et des effets de hover pour offrir une expérience utilisateur immersive et engageante.
+
+Les éléments suivants doivent être présents :
+
+**Page d'accueil / Dashboard :**
+- Une présentation dynamique du projet, avec des effets visuels comme un effet de parallax, des animations de texte, ou des transitions immersives.
+- Si un dashboard est requis, il doit intégrer des graphiques interactifs, des cartes d'information animées, et des indicateurs visuels dynamiques.
+- Ajouter des animations de transition fluides entre les sections du dashboard, qui se réorganisent ou changent dynamiquement selon les actions de l’utilisateur.
+- La navigation entre les sections du site doit être fluide, avec des transitions modernes et attrayantes.
+
+**Header dynamique et moderne :**
+- Le header doit être élégant et réactif, avec des animations subtiles au survol des liens (menus déroulants animés, transitions soignées...).
+- Il doit s’adapter aux différentes tailles d’écran, tout en conservant une interface propre, claire et intuitive.
+
+**Footer dynamique et interactif :**
+- Un footer animé avec des effets au survol : liens interactifs, icônes animées, transitions au passage de la souris.
+- Il doit être bien structuré, contenir des liens vers les réseaux sociaux, des mentions légales, et des éléments visuels engageants.
+
+L'ensemble de la démo doit tenir sur 1 à 2 pages maximum, avec une interaction claire et un aspect "wow", utilisant des technos modernes comme React, et des librairies d’animation telles que GSAP ou React-Spring pour donner vie à l’interface.
+
+🎯 Objectif : créer une expérience immersive, fluide et moderne, avec des effets interactifs percutants, tout en conservant une présentation professionnelle et soignée, quel que soit le secteur du projet.
+
+---
+
+📦 **Description du projet à utiliser :**
+🎯 Description Technique du Projet   📋 Vue d'ensemble Ce projet consiste à développer une boutique en ligne complète dédiée à la vente de produits vestimentaires et accessoires. L'objectif est de créer un site e-commerce intuitif et sécurisé, accessible sur tous types d'appareils grâce à un design responsive et à une expérience utilisateur optimisée. La livraison de la solution est attendue avant le 30 juin 2025.   🔑 Fonctionnalités Principales 1. Création d'un site e-commerce avec un design responsive et une interface utilisateur fluide. 2. Intégration d'un système de paiement sécurisé (PayPal, carte bancaire) et gestion des transactions. 3. Mise en place d'un système de gestion des stocks, suivi des commandes et espace client personnalisé.   🛠️ Stack Technique Recommandée - Frontend : HTML5, CSS3, JavaScript, Bootstrap, React ou Vue.js - Backend : WordPress avec WooCommerce ou Shopify - Base de données : MySQL (WordPress) ou base de données intégrée avec Shopify - Intégrations : API de paiement (PayPal API), Google Analytics, services d'expédition (par exemple, ShipStation)   📱 Interfaces Requises  Interface Utilisateur - Design responsive avec navigation intuitive - Pages de produits avec descriptions détaillées et images haute qualité - Espace client pour suivi de commande, historique d'achats, et gestion des informations personnelles   Interface Administration - Tableau de bord simplifié pour la gestion des stocks et des commandes - Outils de gestion utilisateur pour suivre les clients et leurs activités - Outils d’analyse des performances du site (trafic, ventes, etc.)   ⚙️ Spécifications Techniques - Optimisation pour le référencement naturel (SEO) des pages produits et articles de blog. - Protocoles de sécurisation des données et des informations de paiement. - Responsabilité de la performance des pages (temps de chargement, transition fluide).   🔄 Flux de Travail 1. Phase de conception : création des maquettes UX/UI et validation 2. Développement : implémentation du frontend et backend, intégration de fonctionnalités 3. Test et déploiement : vérification des fonctionnalités, tests de sécurité, et mise en ligne du site.
+
+---
+
+🏁 **Objectif final :**
+Génère une application **React + TypeScript** visuellement impactante et immersive.
+✅ **Rends uniquement le code nécessaire au fonctionnement frontend local**, organisé proprement, absolument responsive sur téléphone !.
+❌ **N’ajoute aucune explication, aucun commentaire, et surtout aucune démo visible.**
+
+> Tu ne dois poser aucune question. Utilise uniquement la description ci-dessus pour créer le code. Utilise uniquement des images libres de droit provenant de Unsplash ou Pexels.
+> Les images doivent être adaptées au secteur d’activité du projet.
+> Ne pas utiliser de lien d’image généré aléatoirement.
+> Chaque image utilisée doit être valide, accessible en HTTPS et pertinente avec le contenu affiché.
+> Fais également attention à ce que les graphiques soient jolis et adaptés. Pense à la responsivité ! Le mot d'ordre de la démo est : effet whaou garanti
